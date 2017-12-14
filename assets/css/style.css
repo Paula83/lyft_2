@@ -1,0 +1,54 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+
+.container_logo{
+	height: 700px;
+	background:linear-gradient(#76278F, #2B1E66);
+}
+
+.foto1 img{
+	width: 30%;
+	background-size: cover;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.container_inicio{
+	background-image: url(../img/carro.jpg);
+  width:100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+}
+
+.foto2 img{
+	width: 15%;
+	padding-top:20px;
+	display: flex;
+}
+
+.foto3 img{
+	width: 20%;
+	padding-top:100px;
+	display: flex;
+}
+
+.foto4 img{
+	width: 20%;
+	display: flex;
+	padding-top: -30px;	
+}
+
+.btn-large{
+	float: left;
+  height: 50px;
+  font-size: 10px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+
+
+}
+
