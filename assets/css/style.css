@@ -6,6 +6,8 @@
 .container_logo{
 	height: 700px;
 	background:linear-gradient(#76278F, #2B1E66);
+	position: fixed;
+	z-index: 10;
 }
 
 .foto1 img{
@@ -22,6 +24,9 @@
 	height: 700px;
 	background-position: center;
 	background-size: cover;
+	position: fixed;
+	z-index: 9;
+
 }
 
 .foto2 img{
@@ -36,19 +41,16 @@
 	display: flex;
 }
 
-.foto4 img{
-	width: 20%;
-	display: flex;
-	padding-top: -30px;	
+
+.btn{
+	color:#fff;
+	border:#fff solid 2px;
+	font-size: 20px;
+	background: none;
 }
 
-.btn-large{
-	float: left;
-  height: 50px;
-  font-size: 10px;
-  align-items: flex-start;
-  margin-bottom: 30px;
-
-
+.container_inpu{
+position: fixed;
+	z-index: 8;
+;
 }
-
